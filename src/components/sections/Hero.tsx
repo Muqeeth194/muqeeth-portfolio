@@ -64,7 +64,7 @@ const Hero = () => {
                 className="hover-scale btn-glow"
               >
                 <a
-                  href="/Muqeeth_Mohammad_Resume.pdf"
+                  href="muqeeth-portfolio/Muqeeth_Mohammad_Resume.pdf"
                   target="_blank"
                   rel="noopener"
                 >
