@@ -80,7 +80,7 @@ const Hero = () => {
             />
             <div className="h-[230px] w-[230px] md:h-72 md:w-72 lg:h-[346px] lg:w-[346px] rounded-full overflow-hidden ring-4 ring-primary/30 ring-offset-4 ring-offset-background shadow-2xl transition-transform duration-300 hover:scale-105">
               <img
-                src="/lovable-uploads/f08fbee7-d342-4337-bc76-a5f0e36ba3ee.png"
+                src="/muqeeth-portfolio/uploads/f08fbee7-d342-4337-bc76-a5f0e36ba3ee.png"
                 alt="Muqeeth Mohammad professional profile photo"
                 className="h-full w-full object-cover"
                 loading="lazy"

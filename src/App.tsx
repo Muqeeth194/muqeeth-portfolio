@@ -19,7 +19,7 @@ const App = () => (
   <HelmetProvider>
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/muqeeth-portfolio">
           <GlobalBackground />
           <SiteHeader />
           <Routes>
