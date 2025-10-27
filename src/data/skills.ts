@@ -1,0 +1,15 @@
+export const skills = [
+  "Docker",
+  "Express.js",
+  "JavaScript",
+  "Message Queues",
+  "MongoDB",
+  "MySQL",
+  "NextJS",
+  "NodeJS",
+  "Python",
+  "React",
+  "Redux",
+  "Langchain",
+  "Langgraph",
+] as const;
