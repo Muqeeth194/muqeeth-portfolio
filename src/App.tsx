@@ -12,6 +12,7 @@ import Projects from "./pages/Projects";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import GlobalBackground from "./components/layout/GlobalBackground";
+import { HashRouter } from "react-router-dom";
 
 const queryClient = new QueryClient();
 
@@ -19,7 +20,8 @@ const App = () => (
   <HelmetProvider>
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <BrowserRouter basename="/muqeeth-portfolio">
+        {/* <BrowserRouter basename="/muqeeth-portfolio"> */}
+        <HashRouter>
           <GlobalBackground />
           <SiteHeader />
           <Routes>
@@ -33,7 +35,7 @@ const App = () => (
           <SiteFooter />
           <Toaster />
           <Sonner />
-        </BrowserRouter>
+        </HashRouter>
       </TooltipProvider>
     </QueryClientProvider>
   </HelmetProvider>

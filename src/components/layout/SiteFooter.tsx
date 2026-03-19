@@ -6,10 +6,10 @@ const SiteFooter = () => {
       <div className="container mx-auto px-4 py-8 text-sm text-muted-foreground flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <p>© {new Date().getFullYear()} Muqeeth Mohammad</p>
         <nav className="flex items-center gap-4">
-          <a href="/projects" className="story-link">
+          <a href="/muqeeth-portfolio#/projects" className="story-link">
             Projects
           </a>
-          <a href="/blog" className="story-link">
+          <a href="/muqeeth-portfolio#/blog" className="story-link">
             Blog
           </a>
         </nav>

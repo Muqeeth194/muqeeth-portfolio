@@ -10,34 +10,63 @@ const Index = () => {
   return (
     <main>
       <Helmet>
-        <title>Muqeeth Mohammad — Web Developer Portfolio</title>
+        <title>Muqeeth Mohammad — Software Development Engineer</title>
         <meta
           name="description"
-          content="Full‑stack web developer portfolio. Explore projects, technologies, timeline, and articles."
+          content="Software Development Engineer with 6+ years of experience building scalable full-stack applications, distributed systems, and AI-powered backends. Specialized in LLM integration, RAG pipelines, and agentic workflows."
         />
         <link rel="canonical" href="/" />
         <script type="application/ld+json">
           {JSON.stringify({
-            "@context": "https://schema.org",
+            "@context": "#",
             "@type": "Person",
             name: "Muqeeth Mohammad",
-            jobTitle: "Web Developer",
+            jobTitle: "Software Development Engineer",
             url: "/",
+            email: "muqeeth44@gmail.com",
             sameAs: [
-              "https://github.com/", // update as needed
+              "https://github.com/muqeeth194",
+              "https://linkedin.com/in/muqeethahmed",
+              "https://muqeeth194.github.io/muqeeth-portfolio/",
             ],
             knowsAbout: [
-              "Docker",
-              "Express.js",
               "JavaScript",
-              "Message Queues",
-              "MongoDB",
-              "MySQL",
-              "NextJS",
-              "NodeJS",
+              "TypeScript",
               "Python",
               "React",
+              "Next.js",
               "Redux",
+              "Tailwind CSS",
+              "Node.js",
+              "Express",
+              "BullMQ",
+              "Kafka",
+              "Docker",
+              "MongoDB",
+              "MySQL",
+              "Redis",
+              "Neo4j",
+              "Qdrant",
+              "LangChain",
+              "LangGraph",
+              "RAG",
+              "Agentic Workflows",
+              "AWS",
+              "Microservices",
+              "CI/CD",
+            ],
+            alumniOf: [
+              {
+                "@type": "CollegeOrUniversity",
+                name: "Indiana Wesleyan University",
+                description:
+                  "Master of Science in Computer Information Systems - AI Specialization",
+              },
+              {
+                "@type": "CollegeOrUniversity",
+                name: "Osmania University",
+                description: "Bachelor of Science in Computer Science",
+              },
             ],
           })}
         </script>

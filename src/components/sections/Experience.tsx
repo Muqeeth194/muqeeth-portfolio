@@ -10,39 +10,31 @@ const Experience = ({ compact = false }: ExperienceProps) => {
     | { kind: "summary"; desc: string }
   > = [
     {
-      year: "2025",
-      title: "Full‑stack Excellence",
-      desc: "Delivering reliable, scalable user experiences end‑to‑end.",
+      year: "02/2023 - 12/2024",
+      title: "Senior Software Development Engineer",
+      desc: "Led AI/ML integrations, distributed systems, and cross-functional delivery.",
     },
     {
       kind: "summary",
-      desc: "Evolved into a senior-level Software Development Engineer, delivering end-to-end user experiences. I engineered high-performance APIs (Node.js) and optimized databases (MongoDB), cutting response times by up to 50%. Drove team excellence via Docker, 50+ code reviews, and Agile practices, while also beginning an M.S. in Computer Info Systems (AI Specialization) to deepen expertise.",
+      desc: "Engineered RAG pipelines with LangChain/LangGraph and step-back prompting, reducing data retrieval time by 40%. Deployed distributed microservices across 8+ AWS ECS services with ALB/VPC, improving scalability by 60%. Built LLM evaluation frameworks in CI/CD on AWS CodePipeline, cutting validation time by 50% and enabling continuous delivery. Reduced MTTR by 45% and achieved 99.95% uptime via CloudWatch observability and structured incident response. Architected end-to-end API security with OAuth 2.0, JWT, IAM scoping, and AWS Secrets Manager. Mentored 4 engineers and led design reviews, establishing PR and architectural standards org-wide.",
     },
     {
-      year: "2020",
-      title: "Building & Scaling",
-      desc: "From fundamentals to complex, high-performance applications.",
-    },
-    {
-      kind: "summary",
-      desc: "Grew from foundational skills to architecting complex, practical applications within Accenture. I took on advanced projects using React, Next.js, and modern backend architectures, while exploring database optimization and integrating AI/GenAI features into internal tools.",
-    },
-    {
-      year: "2018",
-      title: "Foundations",
-      desc: "Started full‑stack journey; core JS, Git, and web fundamentals.",
+      year: "09/2018 - 02/2023",
+      title: "Software Development Engineer",
+      desc: "Built scalable full-stack systems handling thousands of concurrent users.",
     },
     {
       kind: "summary",
-      desc: "Joined Accenture after graduating with a B.S. in Computer Science. My initial focus was on mastering core JavaScript, version control with Git, and essential web fundamentals, laying the groundwork for my full-stack career within the company.",
+      desc: "Deployed full-stack apps using Next.js (SSR/SSG), Node.js microservices, and Docker on AWS EC2/S3, sustaining 2,000+ concurrent users at 99.9% uptime. Designed event-driven architecture with Kafka and BullMQ handling 5,000+ messages/hour, cutting latency by 30%. Achieved 50% reduction in API response time through ElastiCache, MongoDB sharding/indexing, and API contract design. Improved Lighthouse scores by 40% and reduced time-to-interactive by 2.5s via code splitting, lazy loading, and SSG. Established Jest/Supertest testing practices achieving 80%+ coverage and reducing production bug rate by 35%.",
     },
   ];
+
   return (
     <section className={compact ? "" : "container mx-auto px-4 py-12"}>
       <header className="mb-6">
         <h2 className="text-2xl font-semibold">Work Experience</h2>
         <p className="text-muted-foreground mt-1">
-          Accenture — Full‑stack Engineering (2018–2025)
+          Accenture — Full‑stack Engineering (2018–2024)
         </p>
       </header>
 

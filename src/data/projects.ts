@@ -1,6 +1,6 @@
-import chatImg from "@/assets/projects/chat-app.jpg";
-import apiImg from "@/assets/projects/ecommerce-api.jpg";
-import cicdImg from "@/assets/projects/cicd-pipeline.jpg";
+import twcImg from "@/assets/projects/twc.jpg";
+import agentImg from "@/assets/projects/agent.jpg";
+import studymateImg from "@/assets/projects/studymate.jpg";
 
 export type Project = {
   slug: string;
@@ -17,11 +17,21 @@ export const projects: Project[] = [
     slug: "TheWhiskCorner",
     title: "TheWhiskCorner",
     description:
-      "Responsive and dynamic front-end using Next.js, delivering a seamless user experience for browsing and booking custom cakes on TheWhiskCorner platform.",
-    tags: ["React", "NodeJS", "MongoDB", "WebSockets"],
-    image: apiImg,
-    // githubUrl: "#",
-    // liveUrl: "#",
+      "Mobile-first e-commerce platform built with Next.js and Tailwind CSS featuring infinite-scroll product galleries, a multi-step custom quote system, and full-stack auth with role-based access control and dynamic admin dashboards.",
+    tags: ["Next.js", "React Query", "Node.js", "MongoDB", "Tailwind CSS"],
+    image: twcImg,
+    githubUrl: "https://github.com/Muqeeth194/thewhiskcorner",
+    liveUrl: "https://www.thewhiskcorner.com/",
+  },
+  {
+    slug: "StudyMate-AI",
+    title: "StudyMate AI",
+    description:
+      "Agentic learning platform powered by LangGraph and GPT-4o that generates real-time, personalized weekly curriculums from live web data, with context-aware quiz generation, structured JSON validation via Zod, and a React/Recharts progress dashboard.",
+    tags: ["LangGraph", "GPT-4o", "Next.js", "MongoDB", "Zod", "Recharts"],
+    image: studymateImg,
+    githubUrl: "https://github.com/Muqeeth194/studymate",
+    liveUrl: "https://studymate-sigma-six.vercel.app",
   },
   {
     slug: "Agentic-React-Code-Generator",
@@ -29,16 +39,7 @@ export const projects: Project[] = [
     description:
       "Cursor-style IDE agent utilizing LangChain and LangGraph to create and iteratively optimize React applications through a sophisticated, multi-step agentic workflow.",
     tags: ["IDE", "MongoDB", "Docker"],
-    image: cicdImg,
+    image: agentImg,
     githubUrl: "https://github.com/Muqeeth194/AI-Agent",
-  },
-  {
-    slug: "RAG",
-    title: "RAG Chat Application",
-    description:
-      "A RAG (Retrieval-Augmented Generation) application that allows users to upload PDFs, then chat with an AI about the document's content.",
-    tags: ["Docker", "Message Queues", "NodeJS"],
-    image: chatImg,
-    githubUrl: "https://github.com/Muqeeth194/RAG-Chat-Application",
   },
 ];

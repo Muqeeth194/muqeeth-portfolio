@@ -33,8 +33,9 @@ const Hero = () => {
               />
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8">
-              I’m Muqeeth Mohammad, a full‑stack developer specializing in
-              React, Node.js, and scalable architectures.
+              I'm Muqeeth Mohammad, a Full Stack AI Engineer specializing in
+              LangChain, RAG pipelines, and agentic workflows, with 6+ years
+              building scalable applications using React, Node.js, and Next.js.
             </p>
             <div className="flex flex-wrap gap-3">
               <Button
